@@ -1,5 +1,5 @@
 /***
-* Scans a hash and finds any Characters that are non Base64 compatible.
+* Scans a hash and finds any characters that are non base64-compliant.
 ***/
 function findNonBase64Characters($data) {
   $base64Alphabet = str_split('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=');
